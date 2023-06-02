@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "pkg/api;api";
+
+message UserApps {
+    repeated uint32 apps = 1;
+    double lat = 2;
+    double lon = 3;
+}
